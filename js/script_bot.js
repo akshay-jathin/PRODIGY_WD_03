@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetButton = document.getElementById('reset');
     const indexButton = document.getElementById('index');
     const messageBox = document.querySelector('.message-box');
-    let currentPlayer = 'X'; // X always makes the first move
+    let currentPlayer = 'X';
 
     updateStatus();
 
