@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PvB</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="tic-tac-toe">
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-            </div> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PvB</title>
+    <link rel="stylesheet" href="css/styles_pvp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tic-tac-toe">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
         </div>
-        <script src="js/scripts.js"></script> 
-    </body>
+    </div>
+
+    <div class="status">Player X's Turn</div>
+    <div class="message-box"></div>
+    <div class="button-container">
+        <button id="reset">Reset Game</button>
+        <button id="index">Back to Home</button>
+    </div>
+    <script src="js/script_bot.js"></script> 
+</body>
 </html>
